@@ -26,7 +26,7 @@ from requests_oauthlib import OAuth1
 
 
 with open('account.yaml') as f:
-	acct_cfg = yaml.load(f)
+    acct_cfg = yaml.load(f)
 account = acct_cfg["account"]
 auth = OAuth1(acct_cfg["auth"]["app_key"], acct_cfg["auth"]["app_secret"],
               acct_cfg["auth"]["token"], acct_cfg["auth"]["token_secret"])
