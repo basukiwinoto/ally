@@ -1,7 +1,7 @@
 # PyTrader
 pytrader.py is an unofficial class wrapper for Ally Invest (tradeking) API written in Python.
 
-I include sample.py to demo the use of PyTrader class. It will need a configuration file in YAML format with the following information.
+I included sample.py to demo the use of PyTrader class. It will need a configuration file in YAML format with the following information.
 
 account.yaml
 ```
