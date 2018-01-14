@@ -1,3 +1,6 @@
+"""
+pytrader - python wrapper for ally/tradeking API
+"""
 import requests
 from requests_oauthlib import OAuth1
 import time
